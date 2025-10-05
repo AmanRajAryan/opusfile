@@ -13,7 +13,7 @@ project(OpusFile
   LANGUAGES C
 )
 
-option(OP_DISABLE_HTTP "Disable HTTP support" OFF)
+option(OP_DISABLE_HTTP "Disable HTTP support" ON)
 option(OP_DISABLE_FLOAT_API "Disable floating-point API" OFF)
 option(OP_FIXED_POINT "Enable fixed-point calculation" OFF)
 option(OP_ENABLE_ASSERTIONS "Enable assertions in code" OFF)
